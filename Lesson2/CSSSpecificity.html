@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* ID Selector */
+        /* CSS Specificity: 0-1-0-0 */
+        #helloWorld {
+            color: green;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        /* CSS Specificity: 0-0-1-0 */
+        .heading{
+            color: orange;
+            text-align: center;
+        }
+
+        /* Type Selector */
+        /* CSS Specificity: 0-0-0-1 */
+        p {
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS Specificity: 1-0-0-0 -->
+    <h1 style="color: blue; text-align: center; font-size: 5em;">CSS Specificity - Inline Styling</h1>
+
+    <h1 id="helloWorld">Technical Potpourri</h1>
+    <h2 class="heading">Sudipta Deb</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Vitae nunc sed velit dignissim sodales ut eu sem integer. Tellus id interdum velit laoreet id. </p>
+</body>
+</html>
